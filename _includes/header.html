@@ -1,0 +1,64 @@
+<header>
+  <div class="top-header row">
+    <div class="social col-md-4">
+      <p>Wood. Metal. <i class="col1-text">Love.</i></p>
+    </div>
+    <div class="logo col-md-4">
+      <a href="#">
+        <div class="animated">
+          <img src="{{site.baseurl}}/images/example_logo.png" data-src2x="{{site.baseurl}}/images/example_logo_retina.png" alt="{{site.title}}" title="{{site.title}}" />
+        </div>
+      </a>
+    </div>
+  </div><!--/.top-header-->
+
+    <div class="nav navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="btn navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <i class="icons">&#9776;</i> MENU
+                </a>
+                <div class="navbar-collapse collapse">
+                  <ul class="navbar-nav">
+                    <li {% if page.title == "Home" %}
+                      class="active"
+                    {% endif %}>
+                      <a href="/">
+                        <i class="icons col1-text">&#8962;</i> Home
+                      </a>
+                    </li>
+                    <li {% if page.title == "Portfolio" %}
+                      class="active"
+                    {% endif %}>
+                      <a href="/portfolio/">
+                        <i class="icons col1-text">&#59190;</i> Portfolio
+                      </a>
+                    </li>
+                    <li {% if page.title == "About Us" %}
+                      class="active"
+                    {% endif %}>
+                      <a href="/about/">
+                        <i class="icons col1-text">&#128101;</i> About Us
+                      </a>
+                    </li>
+                    <li {% if page.title == "Blog" %}
+                      class="active"
+                    {% endif %}>
+                      <a href="/blog/">
+                        <i class="icons col1-text">&#9998;</i> Blog
+                      </a>
+                    </li>
+                    <li {% if page.title == "Contact" %}
+                      class="active"
+                    {% endif %}>
+                      <a href="/contact/">
+                        <i class="icons col1-text">&#9993;</i> Contact
+                      </a>
+                    </li>
+                  </ul>
+              </div><!--/.nav-collapse -->
+            </div>
+        </div>
+    </div><!--/.navbar-->
+
+</header><!--/header -->
