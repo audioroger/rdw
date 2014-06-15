@@ -1,11 +1,12 @@
 /* ==========================================================================
    G theme light css
    ========================================================================== */
-   	
+
 
 /* general */
 
-	body, .loading { background: url(../images/bg-light.jpg) repeat #EAEADE; color: #444; }
+	body, .loading { background-color: #EAEADE; color: #444; }
+  /*body, .loading { background: url(../images/bg-light.jpg) repeat #EAEADE; color: #444; }*/
 	.btn.btn-primary, .btn.btn-primary:hover, .btn.btn-primary:focus { background: #A0BC8D; }
 	.btn.btn-info, .btn.btn-info:hover, .btn.btn-info:focus { background: #579AAA; }
 	.btn.btn-danger, .btn.btn-danger:hover, .btn.btn-danger:focus { background: #B23333; }
@@ -30,9 +31,9 @@
 	.checkbox:hover, .radio:hover { color: #E76D66 }
 	h1, h2, h3, h4, h5, h6 { color: #777; }
 	hr { border-top: 1px solid #777; border-bottom: 1px solid #777; }
-	
+
 /* top header */
-	
+
 	.top-header .social p { color: #777777; }
 	.top-header .social ul li a { background: #fff; color: #aaa; }
 	.top-header .social ul li a:hover { color: #fff; }
@@ -43,7 +44,7 @@
 	.top-header .cart a:hover { color: #fff; }
 	.top-header form.search input[type=submit] { background: #fff; color: #aaa; }
 	.top-header form.search input[type=submit]:hover { color: #fff; }
-	
+
 
 /* menu */
 
@@ -72,8 +73,8 @@
 	.navbar-inverse .btn.navbar-toggle.active,
 	.navbar-inverse .btn.navbar-toggle.disabled,
 	.navbar-inverse .btn.navbar-toggle[disabled] { background: #444; }
-	
-	
+
+
 /* carousel */
 
 	#sequence .item-caption { color: #fff; background: #444; background:rgba(33,33,33,0.7); }
@@ -87,11 +88,11 @@
 
 
 /* content */
-	
+
 	.pagebody { background: #fff; }
 	.pagebody p { color: #444; }
 	.pagebody hr { border-top: 1px solid #aaa; border-bottom: 1px solid #aaa; }
-	a.box-link .box-icon { color: #fff; }	
+	a.box-link .box-icon { color: #fff; }
 	.title-block { background-color: #444; color: #fff; }
 	.title-block .line { border-left: 2px solid #777; border-right: 2px solid #777;	}
 	.title-block .fade-layer { background:#444;	}
@@ -113,35 +114,35 @@
 	.sidebar .archives ul li a { color: #666; }
 	ul.meta-post li { border-bottom: 1px solid #ccc; }
 	ul.comments li h2 { background: #666; color: #fff; }
-	ul.comments li div.comment-square { color: #fff; }	
-	ul.comments form { background: #EAEADE; }	
+	ul.comments li div.comment-square { color: #fff; }
+	ul.comments form { background: #EAEADE; }
 	.product-item { background: #EAEADE; }
 	.product-item .price { background: #666; color: #fff; }
-	.post-list .content .date {  color: #fff; }	
+	.post-list .content .date {  color: #fff; }
 	.post-list .content .date b.caret { border: 2px solid #ededed; background: #fff; }
-		
+
 /* footer */
-	
+
 	footer { background: #444; color: #ccc; }
-	.footer-info .col-md-3 h2 { color: #fff; }		
+	.footer-info .col-md-3 h2 { color: #fff; }
 	.footer-info .col-md-3 h2 b.caret { border: 1px solid #777; background: #444; }
 	.footer-info .col-md-3 { border-left:1px solid #666; }
-	.footer-info .col-md-3 div.text { border-left:1px solid #666; }	
-	.footer-info .col-md-3 a { color: #ddd; }	
-	
+	.footer-info .col-md-3 div.text { border-left:1px solid #666; }
+	.footer-info .col-md-3 a { color: #ddd; }
+
 	.resetcolor i { background: #444; color: #fff; }
 	.dropdown-picker{ background: #444; }
 	.colorpicker:after { border-bottom: 6px solid #444; }
 	.closepanel { background: #444; color: #fff; }
-	
-	
+
+
 /* responsive  --------------------------------------------------------------------------------------------------- */
 
 
 	@media(max-width:991px) {
 		.nav .navbar-nav > li { border-top: 1px solid #bbb; }
 		.navbar-inverse .nav-collapse .navbar-nav > li > a,
-		.navbar-inverse .nav-collapse .dropdown-menu a {  color: #777; }	
+		.navbar-inverse .nav-collapse .dropdown-menu a {  color: #777; }
 		.navbar-inverse .navbar-inner ul.navbar-nav { border-top: 1px solid #bbb; }
 		.nav-collapse .dropdown-menu { background: #666 !important; }
 		.nav .navbar-nav > li .dropdown-menu li a { color: #eee; }
