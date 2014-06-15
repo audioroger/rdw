@@ -1,7 +1,7 @@
 ---
 layout: index
 title: Blog
-permalink: blog/
+permalink: /blog/
 ---
 
 <div class="block title-block">
@@ -25,11 +25,11 @@ permalink: blog/
       <div class="post-item">
         <div class="date col2 col2a-border"><b class="caret"></b>{{ post.date | date: "%b %-d, %Y" }}</div>
         <h1>
-          <a class="col777" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
-        <img src="{{ post.thumb | prepend: site.baseurl }}" alt="post.thumbtitle"/>
+          <a class="col777" href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a></h1>
+        <img src="{{site.baseurl}}{{post.thumb}}" alt="{{post.thumbtitle}}"/>
         <p>{{post.exerpt}}</p>
         <div class="post-meta">
-          <a class="btn col1" href="{{ post.url | prepend: site.baseurl }}">Read more</a>
+          <a class="btn col1" href="{{site.baseurl}}{{post.url}}">Read more</a>
         </div><!-- /.post-meta -->
       </div><!-- /.postitem -->
     {% endfor %}

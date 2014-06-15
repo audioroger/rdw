@@ -3,9 +3,9 @@ title: Rainy Day Workshop
 email: build@rainydayworkshop.com
 description: "Custom built furniture using antique materials with wood, metal and love in Houston TX."
 baseurl: "/rdw"
-url: "http://rainydayworkshop.com"
+url: "http://audioroger.github.io"
 year: "2014"
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: :title
