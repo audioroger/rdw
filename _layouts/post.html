@@ -1,15 +1,82 @@
 ---
 layout: index
 ---
-<div class="post">
 
-  <header class="post-header">
-    <h1>{{ page.title }}</h1>
-    <p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
+<div class="block title-block">
+  <div class="line"></div>
+  <div class="title-info">
+  	<div class="anchestor-page col2 col2a-border"><b class="caret"></b>{{ page.date | date: "%b %-d, %Y" }}</div>
+  	<div class="page-icon col1">&#9998;</div>
+  	<h1>{{page.title}}</h1>
+  	<h3 class="subtitle col1-text">{{page.exerpt}}</h3>
+  </div>
+  </div>
 
-  <article class="post-content">
-  {{ content }}
-  </article>
+  <div class="pagebody">
+	<div class="row body">
+  	<div class="col-md-8 content offset">
 
-</div>
+    <img class="post-thumb-wide" src="{{site.baseurl}}/images/sample/post-image.jpg" alt="My Post Image" />
+
+	 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec metus turpis. Donec a mauris mi. Praesent sed mauris lectus. Nullam egestas, tellus et cursus pretium, eros metus porttitor dolor, nec eleifend sem nisl id nulla. Praesent libero enim, bibendum sit amet ultrices pulvinar, vulputate nec mi. Pellentesque auctor massa vel felis hendrerit congue condimentum odio hendrerit.</p>
+
+	 <ul class="meta-post">
+     {% if page.author %}
+       <li><strong>written by</strong>{{ page.author }}</li>
+     {% endif %}
+	 	<li><strong>category</strong>News</li>
+	 </ul>
+
+	 <ul class="comments">
+	 	<li>
+	 		<div class="comment-square col2">2</div>
+	 		<h2>Comments</h2>
+	 	</li>
+	 	<li>
+	 		<div class="comment-square"><img src="{{site.baseurl}}/images/sample/unknown.jpg" alt=""></div>
+	 		<div class="intro-comment"><a class="col1-text" href="#">Irongirl</a> write</div>
+		I such as the precious data you offer within your reports.I will bookmark your blog and check once more here often.I’m really certain I will discover an awful lot of recent things right listed here! Beneficial luck for your next!
+		<div class="meta-comment">Dec 13th 2013 | 10.30 am <a href="#" class="btn col1">REPLY</a></div>
+	 	</li>
+	 	<li>
+	 		<div class="comment-square"><img src="{{site.baseurl}}/images/sample/unknown.jpg" alt=""></div>
+	 		<div class="intro-comment"><a class="col1-text" href="#">Unknown</a> write</div>
+		I such as the precious data you offer within your reports.I will bookmark your blog and check once more here often.I’m really certain I will discover an awful lot of recent things right listed here! Beneficial luck for your next!
+		<div class="meta-comment">Dec 13th 2013 | 10.30 am <a href="#" class="btn col1">REPLY</a></div>
+	 	</li>
+	 	<li>
+	 		<div class="comment-square plus col2">+</div>
+	 		<h2>Leave a comment</h2>
+	 		<form>
+  	 		<input placeholder="name" type="text">
+  	 		<input placeholder="email" type="text">
+  	 		<input placeholder="website" type="text">
+  	 		<textarea placeholder="message"></textarea>
+  	 		<input type="submit" class="btn col1" value="leave your comment">
+	 		</form>
+	 	</li>
+
+	 	<li class="line col2-alpha"></li>
+	 </ul>
+
+    </div><!--3/4 content-->
+
+    <div class="col-md-4 sidebar col2-alpha">
+    	<h2 class="col2">Archives</h2>
+    	<div class="widget archives">
+      	<ul>
+        	<li><a href="#">July 2013</a></li>
+        	<li><a href="#">June 2013</a></li>
+        	<li><a href="#">May 2013</a></li>
+        	<li><a href="#">April 2013</a></li>
+        	<li><a href="#">March 2013</a></li>
+        	<li><a href="#">February 2013</a></li>
+        	<li><a href="#">January 2013</a></li>
+      	</ul>
+    	</div>
+
+    </div><!--1/3 sidebar-->
+
+ </div><!-- /row -->
+
+</div><!-- /wrap -->
