@@ -3,7 +3,7 @@ layout: post
 title:  "Site Launch!"
 date:   2014-06-13 07:22:50
 categories: news
-thumb: "/images/portfolio/tables/portfolio_thumb_1.jpg"
+thumb: "/images/blog/20141019/web-homepage.jpg"
 thumbtitle: "Thumnail Image"
 exerpt: "We've launched our new site, shit's gettin' real now!"
 ---
